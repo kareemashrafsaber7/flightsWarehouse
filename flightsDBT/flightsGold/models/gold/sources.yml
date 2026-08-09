@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: silver
+    catalog: flightsystem
+    schema: silver
+
+    tables:
+      - name: bookings_silver
+      - name: airports_silver
+      - name: flights_silver
+      - name: passengers_silver
